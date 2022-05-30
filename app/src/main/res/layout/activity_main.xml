@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <LinearLayout android:layout_width="394dp" android:layout_height="match_parent"
+                  android:orientation="vertical" android:weightSum="5" android:background="#000">
+        <LinearLayout android:layout_width="288dp" android:layout_height="76dp" android:orientation="horizontal"
+                      android:weightSum="5" android:layout_marginLeft="50dp" android:layout_marginTop="20dp">
+            <TextView android:layout_width="75dp" android:layout_height="75dp" android:text="" android:id="@+id/idOpnd1"
+                      android:background="@drawable/round_corner_view" android:textSize="25dp"
+                      android:textColor="#6495ED" android:gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="40dp"
+                      android:layout_marginLeft="10dp" android:id="@+id/idOptr1"
+                      android:text="+" android:textColor="#6495ED"
+                      android:textSize="25dp" android:gravity="center"/>
+            <TextView android:layout_width="75dp" android:layout_height="75dp" android:id="@+id/idOpnd2"
+                      android:background="@drawable/round_corner_view" android:text="" android:textSize="25dp"
+                      android:textColor="#6495ED" android:gravity="center" android:layout_marginLeft="10dp"/>
+            <TextView android:layout_width="30dp" android:layout_height="50dp" android:layout_marginTop="4dp"
+                      android:gravity="center" android:text="=" android:layout_marginLeft="10dp"
+
+                      android:textColor="#6495ED"
+                      android:textSize="25dp"/>
+            <TextView android:layout_width="50dp" android:layout_height="50dp"
+                      android:gravity="center" android:layout_marginTop="4dp" android:layout_marginLeft="10dp"
+                      android:text="24" android:id="@+id/idRes1"
+                      android:textSize="25dp"
+                      android:textColor="#6495ED"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="290dp" android:layout_height="76dp" android:orientation="horizontal"
+                      android:weightSum="5" android:layout_marginLeft="50dp" android:layout_marginTop="10dp">
+            <TextView android:layout_width="75dp" android:layout_height="75dp"
+                      android:background="@drawable/round_corner_view" android:id="@+id/idOpnd3"
+                      android:gravity="center" android:text="" android:textColor="#6495ED"
+                      android:textSize="25dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="40dp"
+                      android:layout_marginLeft="10dp" android:id="@+id/idOptr2"
+                      android:text="−" android:textColor="#6495ED"
+                      android:textSize="25dp" android:gravity="center"/>
+            <TextView android:layout_width="75dp" android:layout_height="75dp" android:layout_marginLeft="10dp"
+                      android:background="@drawable/round_corner_view" android:id="@+id/idOpnd4"
+                      android:gravity="center" android:text="" android:textColor="#6495ED"
+                      android:textSize="25dp"/>
+            <TextView android:layout_width="30dp" android:layout_height="50dp" android:layout_marginTop="4dp"
+                      android:gravity="center" android:text="=" android:layout_marginLeft="10dp"
+
+                      android:textColor="#6495ED"
+                      android:textSize="25dp"/>
+            <TextView android:layout_width="50dp" android:layout_height="50dp"
+                      android:gravity="center" android:layout_marginTop="4dp" android:layout_marginLeft="10dp"
+                      android:text="24" android:id="@+id/idRes2"
+                      android:textSize="25dp"
+                      android:textColor="#6495ED"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="286dp" android:layout_height="78dp" android:orientation="horizontal"
+                      android:weightSum="5" android:layout_marginLeft="50dp" android:layout_marginTop="10dp">
+            <TextView android:layout_width="75dp" android:layout_height="75dp"
+                      android:background="@drawable/round_corner_view" android:id="@+id/idOpnd5"
+                      android:gravity="center" android:text="" android:textColor="#6495ED"
+                      android:textSize="25dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="40dp"
+                      android:layout_marginLeft="10dp" android:id="@+id/idOptr3"
+                      android:text="×" android:textColor="#6495ED"
+                      android:textSize="25dp" android:gravity="center"/>
+            <TextView android:layout_width="75dp" android:layout_height="75dp" android:layout_marginLeft="10dp"
+                      android:background="@drawable/round_corner_view" android:id="@+id/idOpnd6"
+                      android:gravity="center" android:text="" android:textColor="#6495ED"
+                      android:textSize="25dp"/>
+            <TextView android:layout_width="30dp" android:layout_height="50dp" android:layout_marginTop="4dp"
+                      android:gravity="center" android:text="=" android:layout_marginLeft="10dp"
+                      android:textColor="#6495ED"
+                      android:textSize="25dp"/>
+            <TextView android:layout_width="50dp" android:layout_height="50dp"
+                      android:gravity="center" android:layout_marginTop="4dp" android:layout_marginLeft="10dp"
+                      android:text="24" android:id="@+id/idRes3"
+                      android:textSize="25dp"
+                      android:textColor="#6495ED"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="298dp" android:layout_height="80dp" android:orientation="horizontal"
+                      android:weightSum="5" android:layout_marginLeft="50dp" android:layout_marginTop="10dp">
+            <TextView android:layout_width="75dp" android:layout_height="75dp"
+                      android:background="@drawable/round_corner_view" android:id="@+id/idOpnd7"
+                      android:gravity="center" android:text="" android:textColor="#6495ED"
+                      android:textSize="25dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="40dp"
+                      android:layout_marginLeft="10dp" android:id="@+id/idOptr4"
+                      android:text="/" android:textColor="#6495ED"
+                      android:textSize="25dp" android:gravity="center"/>
+            <TextView android:layout_width="75dp" android:layout_height="75dp" android:layout_marginLeft="10dp"
+                      android:background="@drawable/round_corner_view" android:id="@+id/idOpnd8"
+                      android:gravity="center" android:text="" android:textColor="#6495ED"
+                      android:textSize="25dp"/>
+            <TextView android:layout_width="30dp" android:layout_height="50dp" android:layout_marginTop="4dp"
+                      android:gravity="center" android:text="=" android:layout_marginLeft="10dp"
+
+                      android:textColor="#6495ED"
+                      android:textSize="25dp"/>
+            <TextView android:layout_width="64dp" android:layout_height="49dp"
+                      android:gravity="center" android:layout_marginTop="4dp" android:layout_marginLeft="10dp"
+                      android:text="24" android:id="@+id/idRes4"
+                      android:textSize="25dp"
+                      android:textColor="#6495ED"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="286dp" android:layout_height="76dp" android:orientation="horizontal"
+                      android:weightSum="5" android:layout_marginLeft="50dp" android:layout_marginTop="10dp">
+            <TextView android:layout_width="75dp" android:layout_height="75dp"
+                      android:background="@drawable/round_corner_view" android:id="@+id/idOpnd9"
+                      android:gravity="center" android:text="" android:textColor="#6495ED"
+                      android:textSize="25dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="40dp"
+                      android:layout_marginLeft="10dp" android:id="@+id/idOptr5"
+                      android:text="+" android:textColor="#6495ED"
+                      android:textSize="25dp" android:gravity="center"/>
+            <TextView android:layout_width="75dp" android:layout_height="75dp" android:layout_marginLeft="10dp"
+                      android:background="@drawable/round_corner_view" android:id="@+id/idOpnd10"
+                      android:gravity="center" android:text="" android:textColor="#6495ED"
+                      android:textSize="25dp"/>
+            <TextView android:layout_width="30dp" android:layout_height="50dp" android:layout_marginTop="4dp"
+                      android:gravity="center" android:text="=" android:layout_marginLeft="10dp"
+                      android:textColor="#6495ED"
+                      android:textSize="25dp"/>
+            <TextView android:layout_width="50dp" android:layout_height="50dp"
+                      android:gravity="center" android:layout_marginTop="4dp" android:layout_marginLeft="10dp"
+                      android:text="24" android:id="@+id/idRes5"
+                      android:textSize="25dp"
+                      android:textColor="#6495ED"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="345dp" android:layout_height="71dp" android:orientation="horizontal"
+                      android:weightSum="5" android:layout_marginLeft="10dp" android:layout_marginTop="20dp">
+            <TextView android:layout_width="65dp" android:layout_height="70dp" android:layout_marginLeft="3dp"
+                      android:background="@drawable/round_corner_white" android:id="@+id/idOpt1" android:text=""
+                      android:textSize="25dp" android:textColor="#6495ED" android:gravity="center"/>
+            <TextView android:layout_width="65dp" android:layout_height="70dp" android:layout_marginLeft="3dp"
+                      android:background="@drawable/round_corner_white" android:id="@+id/idOpt2"
+                      android:gravity="center" android:text=""
+                      android:textSize="25dp" android:textColor="#6495ED"/>
+            <TextView android:layout_width="65dp" android:layout_height="70dp" android:layout_marginLeft="3dp"
+                      android:background="@drawable/round_corner_white" android:id="@+id/idOpt3"
+                      android:gravity="center" android:text=""
+                      android:textSize="25dp" android:textColor="#6495ED"/>
+            <TextView android:layout_width="65dp" android:layout_height="70dp" android:layout_marginLeft="3dp"
+                      android:background="@drawable/round_corner_white" android:id="@+id/idOpt4"
+                      android:gravity="center" android:text=""
+                      android:textSize="25dp" android:textColor="#6495ED"/>
+            <TextView android:layout_width="65dp" android:layout_height="70dp" android:layout_marginLeft="3dp"
+                      android:background="@drawable/round_corner_white" android:id="@+id/idOpt5"
+                      android:gravity="center" android:text=""
+                      android:textSize="25dp" android:textColor="#6495ED"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="345dp" android:layout_height="71dp" android:orientation="horizontal"
+                      android:weightSum="5" android:layout_marginLeft="10dp" android:layout_marginTop="20dp">
+            <TextView android:layout_width="65dp" android:layout_height="70dp" android:layout_marginLeft="3dp"
+                      android:background="@drawable/round_corner_white" android:id="@+id/idOpt6"
+                      android:gravity="center" android:text=""
+                      android:textSize="25dp" android:textColor="#6495ED"/>
+            <TextView android:layout_width="65dp" android:layout_height="70dp" android:layout_marginLeft="3dp"
+                      android:background="@drawable/round_corner_white" android:id="@+id/idOpt7"
+                      android:gravity="center" android:text=""
+                      android:textSize="25dp" android:textColor="#6495ED"/>
+            <TextView android:layout_width="65dp" android:layout_height="70dp" android:layout_marginLeft="3dp"
+                      android:background="@drawable/round_corner_white" android:id="@+id/idOpt8"
+                      android:gravity="center" android:text=""
+                      android:textSize="25dp" android:textColor="#6495ED"/>
+            <TextView android:layout_width="65dp" android:layout_height="70dp" android:layout_marginLeft="3dp"
+                      android:background="@drawable/round_corner_white" android:id="@+id/idOpt9"
+                      android:gravity="center" android:text=""
+                      android:textSize="25dp" android:textColor="#6495ED"/>
+            <TextView android:layout_width="65dp" android:layout_height="70dp" android:layout_marginLeft="3dp"
+                      android:background="@drawable/round_corner_white" android:id="@+id/idOpt10"
+                      android:gravity="center" android:text=""
+                      android:textSize="25dp" android:textColor="#6495ED"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="95dp" android:orientation="horizontal">
+            <TextView android:layout_width="152dp" android:layout_height="55dp" android:layout_marginLeft="10dp"
+                      android:layout_marginTop="20dp" android:text="❤️️❤❤️️" android:textSize="30dp"
+                      android:id="@+id/idLives" android:gravity="center"/>
+            <TextView android:layout_width="136dp" android:layout_height="57dp" android:layout_marginLeft="30dp"
+                      android:layout_marginTop="15dp" android:backgroundTint="#808080" android:id="@+id/idSubmit"
+                      android:text="Submit" android:textSize="25dp" android:textColor="#808080"
+                      android:gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
