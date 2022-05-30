@@ -16,7 +16,7 @@
                   android:textColor="#0047AB" android:textSize="30dp" android:id="@+id/idStarBtn" android:onClick="startGame"/>
         <TextView android:layout_width="319dp" android:layout_height="296dp" android:layout_marginLeft="40dp"
                   android:layout_marginTop="30dp"
-                  android:text="Game Rules:\n1.There are 10 options given below to solve the puzzle.\n\n2.Click on an option and then on the empty box u wish to fill, u can click back the same option to revert your move.\n\n3.Once an option is clicked, the previous options set to the empty box cannot be changed."
+                  android:text="Game Rules:\n1.There are 10 options given below to solve the puzzle.\n\n2.Click on an option and then on the empty box u wish to fill, u can click back the same option to revert your move.\n\n3.Each solved puzzle carry 5 points."
                   android:textSize="20dp" android:textColor="#909090" android:gravity="center"
                   android:id="@+id/gamedisp"/>
     </LinearLayout>
